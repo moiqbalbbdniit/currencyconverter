@@ -24,8 +24,11 @@ function App() {
         style={{
             background: 'black',
           }}
+    
     >
+        <h1 style={{color:'white',fontSize:'25px',fontWeight:'bolder'}}>Currency Converter Project by Mohammad Iqbal from BBDNIIT Lucknow</h1>
         <div className="w-full">
+            
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
                     onSubmit={(e) => {
